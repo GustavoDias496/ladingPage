@@ -1,0 +1,44 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+
+}
+
+body {
+  line-height: 1;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  --primary-text-color: #374152;
+  --secondary-text-color: #ffffff;
+  --text-color: #4B5563;
+  --third-text-color: #fff4bd;
+  --text-footer: #9da4b0;
+
+  --title-text-color: #1f2a38;
+  --primary-background-color: #fffaeb;
+  --secondary-background-color: #faf9f7;
+  --third-background-color: #ffffff;
+  --green-background: #21c45d;
+  --card-background: #fff8ed;
+  --secondary-card-background: #c76016;
+  --icon-background: #fce68b;
+  --materials-background: #fffcf0;
+
+  --border-color-primary: #fff4c7;
+
+  --primary-brown: #b55409;
+  --background-brown: #ab500a;
+  --background-dark: #1c1917;
+
+  --button-background: #b55409;
+  --button-background-hover: #8d4106;
+  --primary-background-color-hover: #f0eeeb;
+}

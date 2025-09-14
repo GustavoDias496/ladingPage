@@ -1,0 +1,156 @@
+.container {
+    width: 100%;
+    background-color: var(--background-brown);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 65%;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: var(--secondary-text-color);
+    font-weight: 100;
+}
+
+.textDraft {
+    color: var(--secondary-text-color);
+}
+
+.subTitle {
+    width: 80%;
+    font-size: 1.25rem;
+    text-align: center;
+    color: var(--third-text-color);
+}
+
+.cardsContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.card {
+    background-color: var(--secondary-card-background);
+    width: 20rem;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.cardIcon {
+    font-size: 46px;
+    color: var(--icon-background);
+}
+
+.cardTitle {
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--secondary-text-color);
+}
+
+.cardDescription {
+    font-size: 1rem;
+    color: var(--icon-background);
+    text-align: center;
+    line-height: 1.5;
+}
+
+.whatsappContainer {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--green-background);
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 9999px;
+    gap: 0.5rem;
+}
+
+.whatsappContainer:hover {
+    cursor: pointer;
+}
+
+.whatsappIcon {
+    font-size: 1rem;
+    color: var(--secondary-text-color);
+}
+
+.whatsappText {
+    font-size: 1rem;
+    color: var(--secondary-text-color);
+}
+
+
+@media (max-width: 768px) {
+    .content {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        width: 80%;
+    }
+
+    .cardsContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .card {
+        background-color: var(--secondary-card-background);
+        width: 60vw;
+        padding: 20px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .whatsappContainer {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: row;
+        background-color: var(--green-background);
+        width: 60%;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        border-radius: 9999px;
+        gap: 0.5rem;
+    }
+
+}
